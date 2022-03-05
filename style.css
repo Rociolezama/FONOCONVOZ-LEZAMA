@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: rgb(153, 224, 112);
+    height: 300px;
+    width: 100%;
+}
+
+header nav ul li {
+    list-style: none; 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+
+}
+header nav ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: space-around;
+     align-content: center;
+     font-size: 300px;
+}
+header nav{
+    
+    background-color:rgb(153, 224, 112);
+        
+
+}
+a:hover {
+    background-color: rgb(179, 235, 189);
+    transition: 0.5s;
+}
+
+header div.primer-titulo {
+   
+   
+     height: 200px;
+     font-size: 10%vw;
+     background-color: rgb(153, 224, 112);
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+}
+main{
+    background-color: rgb(153, 224, 112) ;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+
+}
+.col-lg-4{
+    padding: 25px;
+}
+#galeria img:hover {
+    border: 5px solid floralwhite;
+
+}
+#servicios img {
+    width: 100%;
+    height: 350px;
+    
+}
+#servicios .row img:hover{
+    border: 15px solid white;
+}
+#hijoUno{
+    padding: 25px;
+}
+#hijoDos{
+    padding: 25px;
+}
+#hijoTres{
+    padding: 25px;
+}
+
+#servicios p{
+    font-size: medium;
+    color: white;
+    text-align: center;
+} 
+   
+footer {
+    background-color: rgb(153, 224, 112);
+    width: 100vw;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+footer nav ul{
+    list-style-type: none;
+}
+#carouselExampleSlidesOnly {
+    height: 500px;
+}
+footer nav ul li a {
+   color: rgb(232, 167, 118);
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+  
+}
+
+
+
+
+
+
